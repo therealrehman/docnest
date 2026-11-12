@@ -1,0 +1,34 @@
+name: docnest
+description: DocNest - Your Personal Document Life Manager.
+publish_to: "none"
+version: 0.6.0+6
+
+environment:
+  sdk: ">=3.6.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.5.1
+  go_router: ^14.2.0
+  shared_preferences: ^2.2.3
+  path_provider: ^2.1.2
+  file_picker: ^8.0.0
+  pdfx: ^2.6.0
+  camera: ^0.11.0
+  image: ^4.2.0
+  pdf: ^3.11.0
+  drift: ^2.20.0
+  sqlite3_flutter_libs: ^0.5.24
+  crypto: ^3.0.3
+  share_plus: ^10.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  drift_dev: ^2.20.0
+  build_runner: ^2.4.13
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
